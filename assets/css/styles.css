@@ -9,7 +9,7 @@
 }
 
 .card-wrapper{
-  max-width: 400px;
+  width: 400px;
   text-align: center;
   font-family: sans-serif;
   margin: 10px;
@@ -27,7 +27,8 @@
 }
 
 .photo-wrapper{
-  --user-photo-size: 150px;
+  display: inline-block;
+  --user-photo-size: 200px;
   width: var(--user-photo-size);
   height: var(--user-photo-size);
   
