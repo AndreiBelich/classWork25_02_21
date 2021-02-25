@@ -2,24 +2,19 @@
   box-sizing: border-box;
 }
 
-table{
-  width: 100%;
-  border-collapse: collapse;
-}
-
-td,th{
-  border: 2px solid blue;
-  padding: 10px 15px;
-}
-
-thead{
+.icons-container{
+  font-size: 0;
   text-align: center;
 }
 
-tbody{
-  text-align: right;
+.icon{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: black;
+  display: inline-block;
 }
 
-tfoot{
-  text-align: left;
+.icon ~ .icon{
+  margin-left: 25px;
 }
