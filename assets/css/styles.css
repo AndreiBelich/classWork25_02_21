@@ -2,3 +2,24 @@
   box-sizing: border-box;
 }
 
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,th{
+  border: 2px solid blue;
+  padding: 10px 15px;
+}
+
+thead{
+  text-align: center;
+}
+
+tbody{
+  text-align: right;
+}
+
+tfoot{
+  text-align: left;
+}
